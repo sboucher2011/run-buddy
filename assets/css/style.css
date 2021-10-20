@@ -217,7 +217,7 @@ section {
 
 .hero {
   padding: 60px;
-  background-image: url("../images/hero-bg.jpeg");
+  background-image: url("../images/hero-bg.jpg");
   height: 600px;
   /*Move picture center up to highlight shoe tieing */
   background-size: cover;
