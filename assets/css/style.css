@@ -4,6 +4,11 @@
     box-sizing: border-box;
   }
 
+  body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
@@ -11,6 +16,20 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+
+   header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
   }
   
 header a {
@@ -36,18 +55,7 @@ header nav ul li a {
     font-size: 1.55vw;
   }
 
-  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-  }
-
-body {
-    /* more on this crazy alphanumerical value in a minute! */
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-  }
+ 
 
 .intro p {
   line-height: 1.7;
@@ -95,10 +103,13 @@ body {
   max-width: 100%;
 }
 
+.step-text {
+  flex: 12;
+}
+
 .step-text p {
   color: #39a6b2;
   font-size: 18px;
-  flex: 12;
 }
 
 .step-text h4 {
@@ -134,10 +145,10 @@ body {
 }
 
 .trainer {
-  margin: 0 auto 30px auto;
+  margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  flex: 1;
 }
 
 .trainer img {
@@ -147,14 +158,6 @@ body {
 .trainer-bio {
   padding: 25px;
   line-height: 1.3;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .trainer-bio h3 {
@@ -237,11 +240,11 @@ body {
 
 footer {
   background-color: #fce138;
-  width: 100%;
   padding: 40px 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 footer h2 {
@@ -268,7 +271,6 @@ section {
   /*Move picture center up to highlight shoe tieing */
   background-size: cover;
   background-position: center;
-  position: relative;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
